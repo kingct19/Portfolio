@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
       let scrollTop = window.pageYOffset;
@@ -12,3 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+
+
+document.getElementById("hamburger-menu").addEventListener("click", function () {
+    var navMenu = document.getElementById("nav-menu");
+    navMenu.classList.toggle("open");
+});
